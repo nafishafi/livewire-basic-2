@@ -1,5 +1,5 @@
 @section('title')
-Create Post - Belajar Livewire 3 di SantriKoding.com
+Edit Post - Belajar Livewire 3 di SantriKoding.com
 @endsection
 
 <div class="container mt-5 mb-5">
@@ -7,7 +7,7 @@ Create Post - Belajar Livewire 3 di SantriKoding.com
         <div class="col-md-12">
             <div class="card border-0 shadow-sm rounded">
                 <div class="card-body">
-                    <form wire:submit="store" enctype="multipart/form-data">
+                    <form wire:submit="update" enctype="multipart/form-data">
 
                         <div class="form-group mb-4">
 
@@ -46,7 +46,7 @@ Create Post - Belajar Livewire 3 di SantriKoding.com
                             @enderror
                         </div>
 
-                        <button type="submit" class="btn btn-md btn-primary">SIMPAN</button>
+                        <button type="submit" class="btn btn-md btn-primary">UPDATE</button>
                         <button type="reset" class="btn btn-md btn-warning">RESET</button>
 
                     </form>
